@@ -5,17 +5,17 @@
 
 */ 
 
-var output=[];
 
-function fizzBuzz() {
 
-    output.push(1);
+function fizzBuzz(count) {
+    for(let i=1; i<=count; i++){
+        console.log(i);
+    }
 
-     console.log(output);
-    
+
 }
 
-fizzBuzz();
+fizzBuzz(15);
 
 
 
